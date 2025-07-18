@@ -21,7 +21,7 @@ function sendRequest(){
         })
         .then(data => {
             weatherImage.src = "https:"+data.current.condition.icon;
-            temperatureText.innerHTML = data.current.temp_c;
+            temperatureText.innerHTML = data.current.temp_c+" °C";
             weatherText.innerHTML = data.current.condition.text;
         })
         .catch(error => console.error(error))
