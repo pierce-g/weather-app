@@ -1,4 +1,4 @@
-const api_key = "64393e073c1248deb84210224251807";
+const api_key = "5ded6dc3f67b476b81e224335251807";
 const api_url = "http://api.weatherapi.com/v1/current.json";
 
 const inputField = document.getElementById("location");
