@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8" />
     <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <div class="centered">
+
             <h1>Weather App</h1>
-            <p>Welcome to the Weather App! Please enter your location to get the current weather.</p>
-            <form id="locationForm">
-                <div class="location-form">
-                    <label for="location">Enter Your Location: </label>
-                    <input type="text" name="location" id="location">
-                </div>
-            </form>
-        </div>
+            <p>Enter your location to get the current weather.</p>
+
+            <input type="text" name="location" id="location">
+            <button id="searchButton">Search</button>
+
+            <div class="weather-info">
+            <h2 id="temperature"></h2>
+            <h3 id="weather"></h3>
+            </div>
+
     </div>
 </body>
 </html>
